@@ -1,0 +1,8 @@
+Prompts used on chatgpt
+I’m working on a cost optimization project in Azure. I have a Cosmos DB with over 2 million records, and most older than 3 months are rarely accessed. I want to reduce costs by moving older records to cheaper storage like Blob, but without changing the existing API behavior or causing downtime. Please suggest a simple, serverless architecture for this use case.
+
+Help me write Terraform code to deploy the necessary Azure resources: Cosmos DB, Blob Storage, and Azure Function App. I’d like the code to be modular and clean
+
+Give me two Python-based Azure Functions — one that runs daily to archive old records to Blob, and another that reads from Cosmos but falls back to Blob if the record isn’t found. Keep it API-compatible and easy to deploy.
+
+Help me write a clear, professional README that explains the problem, solution, setup instructions, and cost benefits of this approach. Make it interview-friendly and simple to understand.
